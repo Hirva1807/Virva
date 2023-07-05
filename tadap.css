@@ -1,0 +1,169 @@
+.likep{
+    height: 180px;
+    width: 181px;
+}
+.likes{
+    background-image: linear-gradient(-45deg,#2e82ff 0%,#79ff74 50%,#ff57d5 100%);
+    display: flex;
+    align-items: center;
+    height:250px;
+    padding-left: 52px;
+    background-size: 200% 200%;
+    background-position: 0 0;
+    transition: 2s;
+}
+.likes:hover{
+    transition: 2s;
+    background-position: 100% 50%;
+}
+.text{
+    font-size: 50px;
+    font-family:Playfair Display;
+    padding-left: 40px;
+    font-weight: bolder;
+}
+.main{
+    display: flex;
+    /* width:100vh; */
+}
+.main1{
+    width: 75%;
+}
+.song{
+    display: flex;
+    align-items: center;
+    background: radial-gradient(circle, rgb(176, 238, 174) 0%, rgb(233, 148, 212) 100%);
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.song:hover{
+    background: radial-gradient(circle, rgb(88, 235, 154) 0%, rgb(240, 59, 201) 100%);
+}
+.sp{
+    height: 80px;
+    width: 90px;
+    margin: 5px;
+}
+.sname{
+    width: 350px;
+}
+.soname{ 
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(12, 6, 44);
+    font-family:Playfair Display;
+    font-size: 25px;
+    margin-left: 100px;
+}
+audio{
+    cursor: pointer;
+    position: relative;
+   /* left:10px;*/
+    border:none;
+}
+@media (min-width: 920px) and (max-width: 1020px) {
+    .sname{
+        width:275px;
+    }
+}
+@media (min-width: 825px) and (max-width: 919px) {
+    .sname{
+        width:200px;
+    }
+    .soname{
+        margin-left: 50px;
+    }
+}
+@media (min-width: 760px) and (max-width: 825px) {
+    .sname{
+        width:150px;
+    }
+    .soname{
+        margin-left: 20px;
+        font-size: 17px;
+        text-align: center;
+    }
+}
+@media (min-width: 709px) and (max-width: 759px) {
+    .sname{
+        width:150px;
+    }
+    .soname{
+        margin-left: 20px;
+        font-size: 17px;
+        text-align: center;
+    }
+    audio{
+        width:263px;
+    }
+}
+@media (min-width: 395px) and (max-width: 708px) {
+    .sname{
+        width:300px;
+        text-align: center;
+    }
+    .soname{
+        margin-left: 20px;
+        font-size: 35px;
+        text-align: center;
+    }
+    audio{
+        width:350px;
+    }
+    .navbar{
+        position: static;
+        width:100%;
+    }
+    .htext{
+        justify-content: center;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .main1{
+        width:100%;
+    }
+    .text{
+        font-size:40px;
+    }
+    .song{
+        flex-direction: column;
+    }
+}
+@media (min-width: 280px) and (max-width:394px) {
+    .sname{
+        width:250px;
+        text-align: center;
+    }
+    .soname{
+        margin-left: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    audio{
+        width:250px;
+    }
+    .navbar{
+        position: static;
+        width:100%;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .main1{
+        width:100%;
+    }
+    .text{
+        font-size:35px;
+    }
+    .song{
+        flex-direction: column;
+    }
+    .likep{
+        width:120px;
+        height:120px;
+    }
+    .likes{
+        padding-left: 14px;
+    }
+}

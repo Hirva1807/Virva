@@ -1,0 +1,81 @@
+*{
+	margin:0;
+	padding:0;
+	color:white;
+}
+.navbar{
+	padding:3px 3px;
+	height:100vh;
+	width:20%;
+	background-color:#03010a;
+	float: left;
+}
+.logo{
+	text-align:center;
+	font-family:Pacifico;
+	font-weight:bold;
+	cursor:hand;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.logo a{
+	text-decoration:none;
+}
+.logo a:hover{
+	color:#43a7e6;
+	transition:color 1s ease;
+}
+.htext{
+	text-decoration:none;
+	font-family:Bebas Neue;
+	margin:15px 10px;
+	font-size:23px;
+	border-radius:5px;
+	display:flex;
+	align-items:center;
+}
+.htext:hover{
+	background-color:#202f66;
+}
+.navname{
+	padding-left:35px;
+	
+}
+.line{
+	border:1px solid #ad1015;
+}
+.exname a{
+	font-family:Bebas Neue;
+	font-size:17px;
+	display:block;
+	text-align:center;
+	padding-top:10px;
+	cursor:hand;
+	text-decoration:none;
+}
+.exname1 a{
+	font-family:Bebas Neue;
+	font-size:17px;
+	display:block;
+	text-align:center;
+	padding-top:10px;
+	cursor:hand;
+	text-decoration:none;
+}
+.exname a:hover{
+	color:#eded4c;
+	font-size:larger;
+}
+.exname1 a:hover{
+	color:#ed4cbf;
+	font-size:larger;
+}
+.main{
+	background-image: linear-gradient(rgb(0, 0, 0),rgb(94, 73, 35),rgb(92, 92, 26),rgb(40, 88, 40),rgb(33, 33, 87),rgb(69, 33, 94),rgb(99, 44, 99));
+	float:left;
+	height:101%;
+	width:79.6%;
+}
+.head1{
+	
+}

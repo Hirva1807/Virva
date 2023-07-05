@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding:0;
+}
+.main{
+	
+}
+.navbar{
+    display: flex;
+    height: 100vh;
+    width: 25%;
+    flex-direction: column;
+	background-color:#03010a;
+	position: sticky;
+	top: 0;
+}
+.logo{
+	text-align:center;
+	font-family: 'Mea Culpa', cursive;
+	cursor:hand;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.logo a{
+	text-decoration:none;
+	font-size:70px;
+	transition-property: font-size;
+  	transition-duration: 1s;
+	/* color:white; */
+	background: linear-gradient(90deg, rgba(99,236,221,1) 0%, rgba(230,38,206,1) 31%, rgba(220,233,109,1) 72%, rgba(0,212,255,1) 100%);
+	background-color: #f3ec78;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.logo a:hover{
+	color:#43a7e6,#ff5e5e;
+	font-size:75px;	
+}
+.htext{
+	text-decoration:none;
+	font-family:Playfair Display;
+	margin:7.7px 10px;
+	padding: 3px 3px;
+	font-size:23px;
+	border-radius:5px;
+	display:flex;
+	align-items:center;
+	color:white;
+}
+.htext:hover{
+	background-color:#202f66;
+}
+.navname{
+	padding-left:35px;
+}
+.line{
+	border:1px solid #ad1015;
+}
+.exname a{
+	font-family:Playfair Display;
+	font-size:22px;
+	display:block;
+	text-align:center;
+	padding-top:10px;
+	cursor:hand;
+	text-decoration:none;
+	color:white;
+}
+.exname1 a{
+	font-family:Playfair Display;
+	font-size:22px;
+	display:block;
+	text-align:center;
+	padding-top:10px;
+	cursor:hand;
+	text-decoration:none;
+	color:white;
+}
+.exname a:hover{
+	color:#eded4c;
+	font-size:25px;
+}
+.exname1 a:hover{
+	color:#ed4cbf;
+	font-size:25px;
+}

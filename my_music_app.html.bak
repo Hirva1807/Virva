@@ -1,0 +1,32 @@
+<html>
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap" rel="stylesheet">
+	<title>Music Op</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="main">
+	<div class="navbar">
+		<h1 class="logo"><a href="">T v</a></h1>
+		<a href="" class="htext">
+			<img src="photo\home.png" alt="home logo" height="45px" width="45px" class="navlogo"></img><span class="navname">Home</span></a>
+		<a href="" class="htext"><img src="photo\library.png" alt="Library logo" height="45px" width="45px"class="navlogo"></img><span class="navname"> Library</span></a>
+		<a href="" class="htext"><img src="photo\loved song.png" alt="Like logo" height="45px" width="45px"class="navlogo"></img><span class="navname">Liked songs</span></a>
+		<hr class="line" />
+		<span class="exname"><a href="">Hindi Songs</a></span><br/>
+		<span class="exname1"><a href="">English Songs</a></span>
+	</div>
+	<div class="main">
+		<h2 class="head2">suggestion list<h2>
+	</div>
+	</div>
+</body>
+
+</html>

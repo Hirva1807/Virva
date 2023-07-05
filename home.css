@@ -1,0 +1,64 @@
+.image{
+    height:200px;
+    width:200px;
+}
+.main{
+    display:flex;
+}
+.main2
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom:50px ;
+}
+.main1{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(-45deg ,#3e61ad65,#be625f73 ,#cfd15e63) ;
+}
+.imp a{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+   padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.imp a:hover{
+    background-image: linear-gradient(-45deg ,#3e61ad65,#be625f73 ,#cfd15e63) ;
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family:playfair display ;
+}
+.pname{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: playfair display;
+    text-decoration: none;
+}
+@media (min-width: 740px) and (max-width: 1167px) {
+    .main2{
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 280px) and (max-width: 739px) {
+    .main2{
+        flex-wrap: wrap;
+    }
+    .main1{
+        width:100%;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .navbar{
+        position: static;
+        width:100%;
+    }
+}

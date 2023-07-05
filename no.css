@@ -1,0 +1,14 @@
+@media (min-width: 320px) and (max-width: 721px) {
+	.main{
+		flex-direction: column;
+	}
+	.suggestion{
+		justify-content: center;
+	}
+	.head2{
+		text-align: center;
+	}
+	.main1{
+		background-image: linear-gradient(to top,#70ff6b 70%,#ca4220);
+	}
+}

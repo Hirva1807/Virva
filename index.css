@@ -1,0 +1,39 @@
+body{
+    /* width:100%; */
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url("photo/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    width:250px;
+    height:70px;
+    line-height: 70px;
+    background-image: linear-gradient(-45deg ,rgb(248, 240, 124),rgb(255, 124, 146),#493df3);
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+    border-radius: 0px 50px 0px 50px ;
+    transition:all ease 1s;
+    font-weight: 900;
+    background-size: 300% 300% ;
+    background-position:0 0 ;
+    color: #000000;
+    font-weight: bolder;
+    font-family: 'Gwendolyn';
+    background: linear-gradient(90deg, rgba(99,236,221,1) 0%, rgba(230,38,206,1) 31%, rgba(220,233,109,1) 72%, rgba(0,212,255,1) 100%);
+	background-color: #f3ec78;
+    background-size: 100%;
+    /* -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent; */
+}
+a:hover{
+    border-radius: 50px 0px 50px 0px;
+    background-position: 100% 46%;
+}
